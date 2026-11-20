@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f5f3ed">
+    <meta name="description" content="Le guide complet pour construire son drone FPV : composants, assemblage, configuration et conseils pour débuter.">
+    <title>Construire son drone FPV de A à Z — Atelier Volant</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="src/icons8-quadcopter-32.png" type="image/x-icon">ink
+</head>
+<body>
+    <header class="site-header" id="top">
+        <a class="brand" href="#" aria-label="Atelier Volant, accueil">
+            <span class="brand-mark" aria-hidden="true">AV</span>
+            <span>Atelier <strong>Volant</strong></span>
+        </a>
+        <nav class="site-nav" aria-label="Navigation principale">
+            <a href="#guide">Le guide</a>
+            <a href="#composants">Matériel</a>
+            <a href="#premier-vol">Bien débuter</a>
+        </nav>
+        <span class="header-note">Le carnet des passionnés FPV</span>
+    </header>
+
+    <main>
+      <article class="article" id="guide">
+        <div class="container">
+            <div class="article-kicker"><span class="kicker-line"></span> Le grand guide · 12 min de lecture</div>
+            <h1>
+                Comment construire son drone FPV de A à Z ?
+            </h1>
+            
+            <p class="article-lead">Construire son propre drone FPV, c'est bien plus qu'assembler quelques pièces et appuyer sur un bouton. C'est comprendre comment fonctionne une machine volante, choisir ses composants, les relier entre eux et apprendre à maîtriser l'ensemble. Le projet peut sembler compliqué au premier abord, mais en avançant étape par étape, il devient beaucoup plus accessible.</p>
+    
+            <p>Que l'objectif soit de réaliser des figures, de voler à grande vitesse ou de filmer des paysages, la construction d'un drone FPV permet de créer un appareil adapté à ses besoins. Alors, par où commencer ?</p>
+        </div>
+
+        <nav class="table-of-contents" aria-label="Sommaire de l’article">
+            <p class="toc-title">Dans ce guide</p>
+            <ol>
+                <li><a href="#fpv">Comprendre le FPV</a></li>
+                <li><a href="#composants">Les composants essentiels</a></li>
+                <li><a href="#compatibilite">Choisir les bonnes pièces</a></li>
+                <li><a href="#assemblage">Assembler son drone</a></li>
+                <li><a href="#premier-vol">Configurer et tester</a></li>
+                <li><a href="#budget">Budget et premiers pas</a></li>
+            </ol>
+        </nav>
+
+        <div class="container">
+            <h2 id="fpv"><span class="section-number">01</span><span>Qu'est-ce qu'un drone FPV ?</span></h2>
+    
+            <p>FPV signifie <em>First Person View</em>, que l'on peut traduire par « vue à la première personne ». Le principe est simple : une caméra installée sur le drone transmet des images en direct à des lunettes ou à un écran. Le pilote voit ainsi ce que voit le drone, comme s'il se trouvait à bord.</p>
+    
+            <p>Cette immersion change complètement la manière de piloter. Contrairement à un drone classique, souvent utilisé pour prendre des photos aériennes en regardant l'appareil depuis le sol, le FPV permet de se déplacer dans l'environnement avec une sensation de vitesse et de liberté particulièrement marquée.</p>
+    
+            <p>Les utilisations sont nombreuses. Certains pilotes privilégient la course, où la rapidité et la précision sont essentielles. D'autres préfèrent le freestyle, qui consiste à enchaîner des figures et des trajectoires acrobatiques. Enfin, les drones FPV peuvent aussi servir à réaliser des vidéos dynamiques, notamment pour suivre un sujet ou survoler un paysage.</p>
+    
+            <p>Mais pourquoi construire son propre appareil plutôt que d'en acheter un déjà prêt ? Principalement pour mieux comprendre son fonctionnement, choisir des composants adaptés et pouvoir réparer ou faire évoluer le drone plus facilement. Cette liberté demande toutefois un peu de patience : avant le premier vol, il faut s'intéresser au matériel, à l'assemblage et à la configuration.</p>
+        </div>
+
+        <div class="container">
+            <h2 id="composants"><span class="section-number">02</span><span>Quelles pièces sont nécessaires ?</span></h2>
+    
+            <p>Un drone FPV est constitué de plusieurs éléments qui doivent fonctionner ensemble. Chaque composant a un rôle précis, et le bon fonctionnement de l'ensemble dépend autant de leur qualité que de leur compatibilité.</p>
+        </div>
+
+        <div class="container">
+            <h3>Le châssis <span>La structure du drone</span></h3>
+    
+            <p>Le châssis constitue la base sur laquelle viennent se fixer les autres composants. Il doit être suffisamment solide pour résister aux vibrations et aux petits chocs, inévitables lorsqu'on débute. Il est souvent fabriqué en fibre de carbone, un matériau apprécié pour sa légèreté et sa résistance.</p>
+    
+            <p>La taille du châssis influence directement le comportement du drone, le choix des hélices et l'espace disponible pour l'électronique. Pour un premier projet, mieux vaut choisir un format courant, pour lequel il est facile de trouver des pièces de remplacement.</p>
+        </div>
+
+        <div class="container">
+            <h3>Les moteurs et les hélices <span>Ce qui permet de voler</span></h3>
+    
+            <p>Sur un quadricoptère, quatre moteurs entraînent les hélices pour produire la poussée nécessaire au vol. En faisant varier leur vitesse, le drone peut monter, descendre, avancer, tourner ou s'incliner.</p>
+    
+            <p>Les moteurs doivent être adaptés à la taille du châssis, aux hélices et à la batterie. Les hélices, quant à elles, existent en différentes tailles et formes, qui influencent la poussée, la consommation électrique et la réactivité de l'appareil. Il ne suffit donc pas de choisir les moteurs les plus puissants : il faut trouver un ensemble cohérent.</p>
+        </div>
+
+        <div class="container">
+            <h3>La carte de vol et les contrôleurs de moteurs</h3>
+    
+            <p>La carte de vol, ou <em>Flight Controller</em> (FC), est le cerveau du drone. Grâce à ses capteurs et aux commandes reçues du pilote, elle calcule en permanence les corrections nécessaires pour stabiliser l'appareil et suivre la trajectoire demandée.</p>
+    
+            <p>Elle travaille avec les contrôleurs électroniques de vitesse, appelés ESC (<em>Electronic Speed Controllers</em>). Ceux-ci régulent la puissance envoyée aux moteurs. Sur de nombreux drones FPV, les ESC et la carte de vol sont regroupés sur une même pile électronique, ce qui simplifie le montage.</p>
+        </div>
+
+        <div class="container">
+            <h3>La batterie : l'énergie à bord</h3>
+    
+            <p>La batterie alimente les moteurs et les composants électroniques. Les batteries LiPo, pour lithium-polymère, sont très répandues en FPV grâce à leur capacité à fournir un courant important pour un poids relativement faible.</p>
+    
+            <p>Deux caractéristiques sont particulièrement importantes : la tension, souvent exprimée en nombre de cellules, et la capacité, exprimée en milliampères-heures (mAh). Une capacité plus élevée peut augmenter l'autonomie, mais elle alourdit aussi le drone. Le choix doit donc tenir compte du poids total et des caractéristiques des moteurs et des ESC.</p>
+        </div>
+
+        <div class="container">
+            <h3>La caméra et le système vidéo</h3>
+    
+            <p>La caméra capture les images transmises au pilote. Un émetteur vidéo, souvent appelé VTX, envoie ensuite le signal vers un récepteur compatible installé dans les lunettes ou l'écran.</p>
+    
+            <p>Deux grandes solutions existent : la vidéo analogique, généralement appréciée pour sa simplicité et son coût contenu, et la vidéo numérique, qui peut offrir une image plus détaillée. Les systèmes numériques et analogiques ne sont pas directement interchangeables : il faut vérifier la compatibilité entre la caméra, l'émetteur, le récepteur et les lunettes.</p>
+        </div>
+
+        <div class="container">
+            <h3>La radiocommande et les lunettes FPV</h3>
+    
+            <p>
+                La radiocommande permet de contrôler le drone à distance. Elle communique avec un récepteur installé sur l'appareil, lequel transmet les commandes à la carte de vol. Le protocole radio et la fréquence utilisée doivent être compatibles entre les deux éléments.
+        
+            </p>
+            <p>Les lunettes FPV affichent les images de la caméra en direct. Elles complètent la radiocommande, mais ne la remplacent pas : le pilotage et le retour vidéo reposent sur deux liaisons distinctes.</p>
+    
+            <p>À cela peuvent s'ajouter un chargeur adapté à la batterie, des câbles, des connecteurs, des sangles et quelques outils. Un fer à souder est également souvent nécessaire pour assembler proprement les connexions électriques.</p>
+        </div>
+
+        <div class="container">
+            <h2 id="compatibilite"><span class="section-number">03</span><span>Comment choisir des composants compatibles ?</span></h2>
+    
+            <p>Une fois les différentes pièces identifiées, il faut éviter un piège classique : acheter chaque composant séparément sans vérifier si l'ensemble peut fonctionner.</p>
+    
+            <p>Le premier réflexe consiste à définir l'utilisation prévue. Un drone destiné au freestyle n'aura pas exactement les mêmes priorités qu'un appareil conçu pour filmer des paysages. Le format du châssis, la puissance des moteurs, le poids de la batterie et le système vidéo doivent répondre à cet objectif.</p>
+    
+            <p>Il faut ensuite vérifier plusieurs points. Les moteurs doivent être adaptés aux hélices et à la tension de la batterie. Les ESC doivent supporter le courant demandé par les moteurs. La carte de vol doit disposer des connexions nécessaires au récepteur radio et au système vidéo. Enfin, la radiocommande, le récepteur et les lunettes doivent être compatibles avec leurs systèmes respectifs.</p>
+    
+            <p>Le budget mérite aussi une attention particulière. Le prix du drone ne représente pas toujours le coût total du projet : les lunettes, la radiocommande, le chargeur et les batteries peuvent représenter une part importante de la dépense. Mieux vaut établir une liste complète avant de commander.</p>
+    
+            <p>Pour un premier montage, choisir un ensemble de composants éprouvés et bien documentés est généralement plus judicieux que rechercher les performances maximales. Les économies réalisées sur une pièce isolée peuvent vite disparaître si elle complique tout l'assemblage.</p>
+        </div>
+
+        <div class="container">
+            <h2 id="assemblage"><span class="section-number">04</span><span>Assembler son drone étape par étape</span></h2>
+    
+            <p>Lorsque toutes les pièces sont réunies, le montage peut commencer. Il est préférable de travailler sur une surface propre et bien éclairée, avec suffisamment d'espace pour organiser les composants et les outils.</p>
+        </div>
+
+        <div class="container">
+            <h3>Étape 1 <span>Préparer le châssis</span></h3>
+    
+            <p>On commence par assembler le châssis en suivant les instructions du fabricant. Il faut vérifier que les bras sont correctement fixés et que les vis ne dépassent pas dans les zones où elles pourraient endommager des câbles ou des composants.</p>
+        </div>
+
+        <div class="container">
+            <h3>Étape 2 <span>Installer les moteurs et l'électronique</span></h3>
+    
+            <p>Les moteurs sont fixés sur les bras du châssis. On installe ensuite la carte de vol et les ESC, en respectant leur orientation et les recommandations du fabricant. Cette étape demande de la précision : une fixation incorrecte ou des vibrations excessives peuvent perturber le fonctionnement du drone.</p>
+        </div>
+
+        <div class="container">
+            <h3>Étape 3 <span>Effectuer les connexions électriques</span></h3>
+    
+            <p>Les fils des moteurs, l'alimentation et les différents périphériques doivent être reliés aux bonnes connexions. Selon le matériel choisi, certaines liaisons nécessitent de souder les fils sur les cartes électroniques.</p>
+    
+            <p>La soudure demande un minimum d'entraînement. Avant de travailler sur les composants du drone, il est préférable de s'exercer sur des fils ou des éléments inutilisés. Une connexion doit être propre, solide et correctement isolée. Il faut également éviter les courts-circuits, qui peuvent endommager l'électronique.</p>
+        </div>
+
+        <div class="container">
+            <h3>Étape 4 <span>Installer le système radio et vidéo</span></h3>
+    
+            <p>On fixe ensuite le récepteur radio, la caméra et l'émetteur vidéo. Les antennes doivent être installées conformément aux recommandations du fabricant, sans être écrasées ni placées trop près des éléments susceptibles de les endommager.</p>
+    
+            <p>Il est utile de prévoir le passage des câbles dès cette étape. Un montage bien organisé facilite les réparations et réduit le risque qu'un fil touche une hélice ou se détache sous l'effet des vibrations.</p>
+        </div>
+
+        <div class="container">
+            <h3>Étape 5 <span>Vérifier le montage</span></h3>
+    
+            <p>Avant de brancher la batterie, on inspecte chaque connexion et on vérifie la polarité de l'alimentation. Une erreur à ce stade peut détruire plusieurs composants en quelques secondes.</p>
+    
+            <p>On contrôle également la fixation des cartes, l'état des câbles et l'absence de vis oubliées. Les hélices ne doivent pas être installées pendant les opérations de configuration et les essais des moteurs.</p>
+        </div>
+
+        <div class="container">
+            <h2 id="premier-vol"><span class="section-number">05</span><span>Configurer et tester avant le premier vol</span></h2>
+    
+            <p>Un drone correctement assemblé n'est pas forcément prêt à voler. Il faut encore configurer son électronique pour que les commandes, les moteurs et les capteurs fonctionnent correctement.</p>
+    
+            <p>Sur de nombreux drones FPV, le logiciel Betaflight permet de configurer la carte de vol. En la reliant à un ordinateur par USB, on peut notamment vérifier la réception des commandes, choisir les modes de vol et régler différents paramètres.</p>
+    
+            <p>La première vérification concerne la radiocommande. Lorsque l'on déplace les manches, les bonnes commandes doivent réagir dans le bon sens. Il faut également configurer le système de sécurité appelé <em>failsafe</em>, qui détermine le comportement du drone lorsque la liaison radio est perdue.</p>
+    
+            <p>On vérifie ensuite l'ordre et le sens de rotation des moteurs. <strong>Les hélices doivent impérativement être retirées pour ces essais.</strong> Il faut aussi s'assurer que l'orientation de la carte de vol est correcte et que les corrections de stabilisation correspondent aux mouvements de l'appareil. La documentation officielle de <a href="https://betaflight.com/docs/wiki/getting-started/setup-guide" target="_blank">Betaflight</a> détaille ces contrôles.</p>
+    
+            <p>La batterie demande elle aussi des précautions. Il faut utiliser un chargeur compatible avec sa chimie et son nombre de cellules, surveiller son état et ne jamais laisser une batterie endommagée ou anormalement gonflée en service. Les batteries LiPo doivent être manipulées et chargées conformément aux consignes de leur fabricant.</p>
+    
+            <p>Enfin, il ne faut pas oublier la réglementation. En France, les conditions de vol dépendent notamment du lieu, du type de drone et de la catégorie d'exploitation. Pour un vol FPV en immersion dans le cadre de la catégorie ouverte, la réglementation prévoit notamment la présence d'un observateur visuel capable de garder le drone en vue directe et de surveiller l'environnement. Avant de voler, il est donc indispensable de consulter les règles officielles sur <a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F34630" target="_blank">Service-Public.fr</a> et les informations de la Direction générale de l'aviation civile.</p>
+    
+            <p>Le premier essai doit se dérouler dans un lieu adapté, loin des personnes et des obstacles, après vérification de l'ensemble des contrôles. Si un comportement paraît anormal, on arrête les essais et on recherche la cause avant de poursuivre.</p>
+        </div>
+
+        <div class="container">
+            <h2 id="budget"><span class="section-number">06</span><span>Quel budget prévoir et comment débuter ?</span></h2>
+    
+            <p>Le budget dépend du format du drone, du système vidéo et de la qualité du matériel choisi. Il faut distinguer le prix du quadricoptère lui-même de celui de l'équipement nécessaire pour le piloter.</p>
+    
+            <p>Un premier budget doit inclure le châssis, les moteurs, les hélices, l'électronique, la batterie, le système radio et la transmission vidéo. À cela s'ajoutent les lunettes, la radiocommande, le chargeur, les batteries supplémentaires et les petits outils. Le coût peut donc varier fortement selon les choix effectués.</p>
+    
+            <p>Pour limiter les dépenses, on peut commencer par un simulateur FPV sur ordinateur. Avec une radiocommande compatible, il est possible d'apprendre les commandes et de s'entraîner sans risquer de casser son appareil. C'est particulièrement utile, car le pilotage en mode manuel demande du temps et de la pratique.</p>
+    
+            <p>On peut aussi choisir un format de drone adapté à son niveau, privilégier des composants courants et conserver une petite réserve pour les réparations. Les hélices et certains éléments du châssis sont notamment susceptibles d'être endommagés lors des premiers vols.</p>
+        </div>
+
+        <div class="container">
+            <h2 id="conclusion"><span>Conclusion</span></h2>
+    
+            <p>Construire un drone FPV de A à Z demande de la méthode, quelques connaissances techniques et un peu de patience. Il faut comprendre le rôle des composants, vérifier leur compatibilité, réaliser un montage propre, configurer l'électronique et contrôler soigneusement l'appareil avant de le faire voler.</p>
+    
+            <p>L'intérêt du projet ne se limite pourtant pas au résultat final. Chaque étape permet de mieux comprendre le fonctionnement du drone et de gagner en autonomie pour l'entretenir ou le réparer. Le premier vol devient alors bien plus qu'un simple essai : c'est l'aboutissement d'un projet construit pièce par pièce.</p>
+    
+            <p>Le meilleur conseil pour se lancer reste simple : commencer avec un objectif réaliste, prendre le temps de comprendre chaque étape et ne jamais sacrifier la sécurité pour gagner quelques minutes. En FPV, la progression fait partie du plaisir.</p>
+        </div>
+        <footer class="article-footer">
+            <span class="footer-mark" aria-hidden="true">✳</span>
+            <p>Un projet, mille façons de voler.<br><strong>À vous de construire la vôtre.</strong></p>
+            <a href="#top">Retour en haut ↑</a>
+        </footer>
+      </article>
+    </main>
+    <footer class="site-footer">
+        <a class="brand" href="#top" aria-label="Atelier Volant, accueil">
+            <span class="brand-mark" aria-hidden="true">AV</span>
+            <span>Atelier <strong>Volant</strong></span>
+        </a>
+        <span>Des idées bien construites, pour prendre de la hauteur.</span>
+    </footer>
+</body>
+</html>
